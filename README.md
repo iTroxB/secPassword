@@ -1,7 +1,7 @@
 # secPassword
 
 <div align="center">
-  <img src="/img/-logo.png" width=750px>
+  <img src="/img/sec-logo.png" width=750px>
 </div>
 
 Bash script that allows to create random passwords with high entropy, depending on the definition of certain assigned parameters 
@@ -34,7 +34,7 @@ jwtDecoder --help
 ```
 
 <div align="center">
-  <img src="/img/-help.png" width=750px>
+  <img src="/img/sec-help.png" width=750px>
 </div>
 
 ---
