@@ -26,11 +26,11 @@ sudo ln -s /opt/secPassword/secPassword.sh /usr/bin/secPassword
 * To know the options and parameters of the tool run the help menu with the flag `-h` or `--help`.
 
 ```shell
-jwtDecoder -h
+secPassoword -h
 ```
 
 ```shell
-jwtDecoder --help
+secPassoword --help
 ```
 
 <div align="center">
