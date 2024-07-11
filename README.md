@@ -41,16 +41,24 @@ secPassoword --help
 
 ## Use tool
 
-- Example of JWT without signature secret
-
 <div align="center">
-  <img src="/img/-noSignature.png" width=750px>
+  <img src="/img/sec-init.png" width=750px>
 </div>
 
-- Example of JWT with secret signature "JSON-WEB-TOKEN"
+- Always declare the length of the password to be created with the -l parameter, and at least one of the parameters assigned to the type of characters used.
 
 <div align="center">
-  <img src="/img/-Signature.png" width=750px>
+  <img src="/img/sec-l.png" width=750px>
+</div>
+
+<div align="center">
+  <img src="/img/sec-lm.png" width=750px>
+</div>
+
+- Password created with all parameters used
+
+<div align="center">
+  <img src="/img/sec-lMmns.png" width=750px>
 </div>
 
 - Execution on base64-encoded JWT without secret signature
@@ -70,5 +78,3 @@ secPassoword --help
 <div align="center">
   <img src="/img/-token2.png" width=900px>
 </div>
-
----
