@@ -40,7 +40,8 @@ print_banner() {
 
 # Help menu
 show_help() {
-	echo -e " \n${yellow}Usage: $(basename $0) [-M] [-m] [-n] [-s] -l <longitud> [-h]\n${end}\n"
+	print_banner
+	echo -e " \n${yellow}Usage: $(basename $0) [-M] [-m] [-n] [-s] -l <longitud> [-h]\n${end}"
 	echo -e "    ${turquoise}-M${end}    ${gray}Include uppercase${end}"
 	echo -e "    ${turquoise}-m${end}    ${gray}Include lowercase${end}"
 	echo -e "    ${turquoise}-n${end}    ${gray}Include numbers${end}"
